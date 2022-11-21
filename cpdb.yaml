@@ -1,0 +1,53 @@
+cpdb:
+  public:
+    # Table data_area
+    data_area:
+      rows: 1551
+      id:
+        type: int
+        private_id: True
+      area_type:
+        type: string
+      name:
+        type: string
+    # Table data_allegation_areas
+    data_allegation_areas:
+      rows: 444878
+      id:
+        type: int
+        private_id: True
+      allegation_id:
+        type: int
+      area_id:
+        type: int
+    # Table data_victim
+    data_victim:
+      id:
+        type: int
+        private_id: True
+      allegation_id:
+        type: int
+      race:
+        type: string
+      gender:
+        type: string
+    # Table data_officer
+    data_officer:
+      id:
+        type: int
+        private_id: True
+      allegation_id:
+        type: int
+      race:
+        type: string
+      gender:
+        type: string
+    # Table data_officerallegation
+    data_officerallegation:
+      id:
+        type: int
+        private_id: True
+      allegation_id:
+        type: int
+      officer_id:
+        type: int
