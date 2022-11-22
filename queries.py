@@ -3,7 +3,6 @@ algtn_by_area_qstr = "select area_id,\
  from data_allegation_areas\
  where area_id = 1546\
  group by area_id;"
-#  order by total_allegation desc limit 1;"
 
 algtn_by_race_qstr = "select race,\
  count(allegation_id) as total_allegation\

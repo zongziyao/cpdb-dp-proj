@@ -2,6 +2,7 @@ cpdb:
   public:
     # Table data_area
     data_area:
+      censor_dims: False
       rows: 1551
       id:
         type: int
@@ -12,6 +13,7 @@ cpdb:
         type: string
     # Table data_allegation_areas
     data_allegation_areas:
+      censor_dims: False
       rows: 444878
       id:
         type: int
@@ -22,6 +24,7 @@ cpdb:
         type: int
     # Table data_victim
     data_victim:
+      censor_dims: False
       id:
         type: int
         private_id: True
@@ -33,6 +36,7 @@ cpdb:
         type: string
     # Table data_officer
     data_officer:
+      censor_dims: False
       id:
         type: int
         private_id: True
@@ -44,6 +48,7 @@ cpdb:
         type: string
     # Table data_officerallegation
     data_officerallegation:
+      censor_dims: False
       id:
         type: int
         private_id: True
